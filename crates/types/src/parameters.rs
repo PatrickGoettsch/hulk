@@ -77,6 +77,7 @@ pub struct RolePositionsParameters {
     pub defender_passive_ring_radius: f32,
     pub defender_y_offset: f32,
     pub defender_passive_distance: f32,
+    pub defender_offensive_x_offset: f32,
     pub left_midfielder_distance_to_ball: f32,
     pub left_midfielder_maximum_x_in_ready_and_when_ball_is_not_free: f32,
     pub left_midfielder_minimum_x: f32,

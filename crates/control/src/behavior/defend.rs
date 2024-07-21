@@ -92,7 +92,7 @@ impl<'cycle> Defend<'cycle> {
             self.world_state,
             self.field_dimensions,
             self.role_positions,
-            -self.field_dimensions.length / 2.0,
+            -self.field_dimensions.length / 2.0 + self.role_positions.defender_offensive_x_offset,
             Side::Left,
         )?;
         self.with_pose(
